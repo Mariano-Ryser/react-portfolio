@@ -1,0 +1,32 @@
+.a{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.a-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-img{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    background-image: url(/src/img/Bosque.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: mov 3s 1 ease;
+}
+@keyframes mov {
+    0%{clip-path: polygon(0% 0%, 0% 25%, 100% 100%, 0 0%);}
+    30%{
+        clip-path: polygon(64% 70%, 69% 12%, 100% 100%, 0 94%);
+    }
+    60%{clip-path: polygon(14% 21%, 98% 9%, 100% 100%, 0 94%);}
+    100%{clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
+    
+}
+
+.a-right{
+    flex: 1;
+}
