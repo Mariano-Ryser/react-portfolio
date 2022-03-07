@@ -5,9 +5,19 @@ const  About = () => {
   return (
     <div className='a' >
         <div className="a-left">
-            <div className="box-img"></div>    
+            
+
+
+
         </div>
-        <div className="a-right"></div>
+
+        <div className="a-right">
+                <div className="welcome">
+                  <div className="cuadrado"></div>
+                  <div className="triangulo"></div>
+                  <div className="luna"></div>
+                </div>
+        </div>
     </div>
   )
 }
