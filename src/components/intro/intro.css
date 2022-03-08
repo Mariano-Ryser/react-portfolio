@@ -29,10 +29,32 @@
     font-size: 40px;
     font-weight: 300;
     margin: 0;
+    animation: iintro 2s ease-in-out;
 }
+@keyframes iintro {
+  0%{opacity: 0%;
+    transform: translateX(-200px)
+    scale(2);
+  }
+  
+  100%{opacity: 100%;
+    transform: translateX(0px)
+    scale(1);}
+  }
+
 .i-name{
     margin: 0;
     font-size: 70px;
+    opacity: 100%;
+    animation: iname 2s 1 ease-in-out;
+}
+
+@keyframes iname {
+0%{opacity: 0%;
+  transform: translateX(-200px);}
+
+100%{opacity: 100%;
+  transform: translateX(0px);}
 }
 .i-title{
     height: 50px;
@@ -60,8 +82,22 @@
 .i-img{
     width: 100%;
     height: 100%;
+    opacity: 100%;
     object-fit: contain;
     position: absolute;
+    transform: translateX(0px);
+    animation: img 1s 1 ease-in-out;
+}
+@keyframes img {
+  0%{
+    opacity: 0%;
+    transform: translateX(-200px);
+  }
+  100%{
+    opacity: 100%;
+    transform: translateX(0px);
+  }
+  
 }
 
 .i-bg{
@@ -72,6 +108,27 @@
     position: absolute;
     top: 0;
     right: 0;
+    animation: bg 2s 1 ease-in-out;
+}
+@keyframes bg {
+  0%{
+    top:-800px;
+    right: 1500px;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 45% 75%, 0% 50%, 46% 26%);
+  }
+
+  75%{
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 45% 75%, 0% 50%, 46% 26%);
+  }
+
+
+  100%{
+    clip-path: polygon(100% 0, 75% 50%, 100% 100%, 25% 100%, 0 41%, 31% 0);
+    top:0px;
+    right: 0px;
+  }
+
+  
 }
 
 
