@@ -11,18 +11,25 @@ const Intro = () => {
                 <h2 className='i-name'>Mariano Ryser</h2>
                 <div className="i-title">
                     <div className="i-title-wrapper">
-                        <div className="i-title-item">Web Developer</div>
-                        <div className="i-title-item">Animation</div>
-                        <div className="i-title-item">Css</div>
-                        <div className="i-title-item">JavaScript</div>
-                        <div className="i-title-item">Musiker XD</div>
+                        <div className="i-title-item"><p> Web Developer</p></div>
+                        <div className="i-title-item"><p> Animation</p></div>
+                        <div className="i-title-item"><p> Css</p></div>
+                        <div className="i-title-item"><p> JavaScript</p></div>
+                        <div className="i-title-item"><p> Musiker =D</p></div>
                     </div>
                 </div>
                 <div className="i-desc">
                     
-                    <h4> I am a designer, always updating myself and constantly learning something new.</h4>
+                    <h4> I am a web designer, I like to create animations, learn language and always willing to learn new things.</h4>
+                </div>
+
+                <div className="welcome">
+                  <div className="cuadrado"></div>
+                  <div className="triangulo"></div>
+                  <div className="luna"></div>
                 </div>
             </div>
+
         </div>
         <div className="i-right">
             <div className="i-bg"></div>

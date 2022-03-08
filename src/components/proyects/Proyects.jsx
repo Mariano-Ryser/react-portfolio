@@ -23,9 +23,7 @@ import Linux from "../../img/linux.png"
 import Paint from "../../img/paint3d.png"
 import Window from "../../img/window.png"
 
-
 const  Proyects = () => {
-
 
   return (
     <div>
@@ -57,10 +55,7 @@ const  Proyects = () => {
           <div className="icon" style={{backgroundImage: `url(${Linux})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Paint})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Window})`}}></div>
-          
         </div>
-
-     
     </div>
   )
 }
