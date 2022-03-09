@@ -110,7 +110,7 @@
     right: 0;
     animation: bg 2s 1 ease-in-out;
 }
-@keyframes bg {
+/* @keyframes bg {
   0%{
     top:-800px;
     right: 1500px;
@@ -129,10 +129,10 @@
   }
 
   
-}
+} */
 
 
-.welcome{
+/* .welcome{
     position: absolute;
     height: 400px;
     width: 400px;
@@ -186,7 +186,6 @@
     transform: rotateZ(400deg);
     opacity: 0%;
     }
-    
   }
   
   .triangulo{
@@ -302,7 +301,7 @@
     left: 80px;
      }
     
-  }
+  } */
 
 @media screen and (max-width:480px){
     .i{
@@ -343,6 +342,8 @@
         top: 0;
         right: 0;
     }
+
+    
     
 }
  
@@ -391,6 +392,9 @@
          top: 0;
          right: 0;
      }
+     .welcome{
+      display: none;
+    }
      
     
     
