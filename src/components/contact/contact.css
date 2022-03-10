@@ -16,7 +16,6 @@
     padding: 50px 50px 20px 50px;
     display: flex;
 }
-
 .c-left{
     flex: 1;
 }
@@ -31,7 +30,6 @@
     font-weight: 300;
     width: 70%;
 }
-
 .c-icon{
     width: 50px;
     height: 50px;
@@ -75,7 +73,7 @@ input{
     color: white;
 }
 textarea{
-    width: 100%;
+    width: 60%;
     border: none;
     border-bottom: green 2px solid;
     margin: 10px 0px;
@@ -99,7 +97,7 @@ button:hover{
 
 .c-msj{
     opacity: 0%;
-    transform: translateY(-50px)scale(1.5);
+    transform: translateY(-250px)scale(1.5);
     animation: msj 2.4s 1 ease-in-out;
     
 }
@@ -115,9 +113,19 @@ button:hover{
 }
 
 @media screen and (max-width:480px){
+    .c-box{
+        height: 800px;
+        background-color: rgb(0, 0, 0);
+        margin-top: 20px;
+        border-top: solid 4px rgb(4, 107, 4);
+      
+    }
+    .c-bg{
+        display: none;
+    }
     .c-wrapper{
         flex-direction: column;
-        padding: 0px 50px;
+        padding: 0px 30px;
     }
 
     .c-title{
@@ -158,5 +166,6 @@ button:hover{
         padding-left: 10px;
         background-color: black;
         color: white;
+        
     }
 }
