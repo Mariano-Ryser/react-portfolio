@@ -29,7 +29,7 @@
 }
 .icon:hover{
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.05) rotateZ(1.5deg);
    box-shadow: inset black 0px 0px 0px;
    filter: blur(0.0px); 
 }
