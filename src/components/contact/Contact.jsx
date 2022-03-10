@@ -8,6 +8,7 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
+   
     
     const form = useRef();
     const [done, setDone] = useState(false)
@@ -19,9 +20,14 @@ const Contact = () => {
            'template_wapk55q',
             form.current,
              'user_Gr1dS043bX0VxH5XOVORw')
+
         .then((result) => {
             console.log(result.text);
             setDone(true);
+            setTimeout(() => {
+                setDone(false);
+            }, 3100);
+
         }, (error) => {
             console.log(error.text);
         });
@@ -71,13 +77,14 @@ const Contact = () => {
                         <input type="text" placeholder='Name' name="user_name"/>
                         <input type="text" placeholder='Subject' name="user_subject"/>
                         <input type="text" placeholder='Email' name="user_email"/>
+                        {
+                        done && <div className='c-msj'><h3 className='msj'>"Message sent succesfully"</h3></div>
+                    }
                         <textarea name="message" id="" cols="5" rows="5" placeholder='Message'></textarea>
                         <br />
                         <button type='submit'>Submit</button>
                     </form>
-                    {
-                        done && <div className='c-msj'><h3>"Thank you!"</h3></div>
-                    }
+                   
                     
 
                 </div>

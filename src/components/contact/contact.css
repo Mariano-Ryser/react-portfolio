@@ -59,6 +59,7 @@
 
 form{
     margin-top:20px
+    
 }
 input{
     width: 50%;
@@ -96,23 +97,35 @@ button:hover{
 }
 
 .c-msj{
+    position: absolute;
+    height: 70px ;
+    width: 199px;
     opacity: 0%;
-    transform: translateY(-250px)scale(1.5);
+    background-color: rgb(209, 245, 4);
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 30px rgb(75, 75, 75);
+    border-radius: 10px;
+    transform: translateX(100px)scale(1.5); 
     animation: msj 2.4s 1 ease-in-out;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msj{
+    text-align: center;
 }
 @keyframes msj {
-    0%{transform: translateY(-100px);
+    0%{transform: translateY(-100px)translateX(80px);
         opacity: 100%;}
-    80%{transform: translateY(-40px)scale(2);
+    80%{transform: translateY(-40px)translateX(80px)scale(2);
         opacity: 100%;
     }
-    100%{transform: translateY(-50px)scale(2);
+    100%{transform: translateY(-50px)translateX(80px)scale(2);
         }
     
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:850px){
     .c-box{
         height: 800px;
         background-color: rgb(0, 0, 0);
@@ -145,8 +158,12 @@ button:hover{
         font-weight: 400;
         margin-top: 50px;
     }
+    /* form{
+        display: flex;
+        flex-direction: column;
+    } */
     input{
-        width: 100%;
+        width: 80%;
         height: 50px;
         border: none;
         border-bottom: rgb(2, 189, 2) 2px solid;
@@ -158,7 +175,7 @@ button:hover{
         color: white;
     }
     textarea{
-        width: 100%;
+        width: 80%;
         border: none;
         border-bottom: green 2px solid;
         margin: 10px 0px;
@@ -166,6 +183,37 @@ button:hover{
         padding-left: 10px;
         background-color: black;
         color: white;
+        
+    }
+
+    .c-msj{
+        position: absolute;
+        height: 80px ;
+        width: 180px;
+        opacity: 0%;
+        background-color: rgb(209, 245, 4);
+        color: rgb(0, 0, 0);
+        box-shadow: 2px 2px 30px rgb(75, 75, 75);
+        border-radius: 10px;
+        transform: translateX(100px)scale(1.2); 
+        animation: msj 2.4s 1 ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .msj{
+        font-size: 17px;
+        font-weight: 200;
+        text-align: center;
+    }
+    @keyframes msj {
+        0%{transform: translateY(-100px)translateX(80px);
+            opacity: 100%;}
+        80%{transform: translateY(-40px)translateX(80px)scale(1.4);
+            opacity: 100%;
+        }
+        100%{transform: translateY(-50px)translateX(80px)scale(1.4);
+            }
         
     }
 }
