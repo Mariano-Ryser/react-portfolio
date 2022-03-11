@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./proyects.css"
 import Alienverde from "../../img/Alienverde.gif"
 import Github from "../../img/github.png"
@@ -34,6 +34,18 @@ import Sandwich from "../../img/sandwich.png"
 
 const  Proyects = () => {
 
+  const [style, setStyle] = useState("box-icons");
+  
+  // const changeStyle = () => {
+  //   console.log("you just clicked");
+  
+  //   setStyle("box-icons-open");
+    
+  // };
+
+ 
+
+
   return (
     <div>
         <div className="title">
@@ -41,14 +53,14 @@ const  Proyects = () => {
                 Interactive Icons 
           </h1>
         </div>
-        <div className="box-icons">
+        <div className={style}>
           <div className="icon" style={{backgroundImage: `url(${Github})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Linkedin})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Discord})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Alienverde})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Drag})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Cube})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Fo})`}}></div>
-          <div className="icon" style={{backgroundImage: `url(${Discord})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Google})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Pac})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Visual})`}}></div>
@@ -74,6 +86,9 @@ const  Proyects = () => {
           <div className="icon" style={{backgroundImage: `url(${Champi})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Sandwich})`}}></div>
         </div>
+        <div className='vermas' onClick={() =>  setStyle(style === "box-icons" ? "box-icons-open" : "box-icons")}><h1 className='trespuntos'>. . .</h1></div>
+
+       
     </div>
   )
 }

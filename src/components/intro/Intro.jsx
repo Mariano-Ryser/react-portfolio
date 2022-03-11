@@ -19,8 +19,10 @@ const Intro = () => {
                     </div>
                 </div>
                 <div className="i-desc">
-                    
                     <h4> I am a web designer, I like to create animations, learn language and always willing to learn new things.</h4>
+                </div>
+                <div className="i-desc2">
+                    <h2>HTML5 - CSS - BOOTSTRAP - WORDPRESS - JAVA SCRIPT - REACT - UX - MYSQL - PHP - LINUX - GIT - GITHUB - DOCKER </h2>
                 </div>
 
                 <div className="welcome">
