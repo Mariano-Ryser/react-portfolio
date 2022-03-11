@@ -10,7 +10,6 @@ body{background-color: black;}
     flex: 1;
     height: 100%;
     position: relative;
-    /* overflow: hidden; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,6 +154,17 @@ aside.cara6 { /* arriba */
     display: flex;
     align-items: center;
     margin-top: 10px;
+}
+.a-left{
+  width: 100%;
+  flex: 1;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  overscroll-behavior-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .a-right{

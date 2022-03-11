@@ -31,27 +31,29 @@ import Pizza from "../../img/pizza.png"
 import Champi from "../../img/champi.png"
 import Bootstrap from "../../img/bootstrap.gif"
 import Sandwich from "../../img/sandwich.png"
+import Earth from "../../img/earth.png"
+import Moon from "../../img/moon2.gif"
+import Neptune from "../../img/neptune.png"
+import Pluto from "../../img/pluto.png"
+import Jupiter from "../../img/jupiter.gif"
+import Venus from "../../img/venus.png"
+import Mercurio from "../../img/mercurio2.gif"
+import Saturn from "../../img/saturn.png"
+import Uranus from "../../img/uranus.png"
+import Mars from "../../img/mars.png"
 
 const  Proyects = () => {
 
   const [style, setStyle] = useState("box-icons");
   
-  // const changeStyle = () => {
-  //   console.log("you just clicked");
-  
-  //   setStyle("box-icons-open");
-    
-  // };
-
- 
-
+  const toggleBox = ()=>{
+    setStyle(style === "box-icons" ? "box-icons-open" : "box-icons");
+  }
 
   return (
     <div>
         <div className="title">
-          <h1>
-                Interactive Icons 
-          </h1>
+          <h1> Interactive Icons </h1>
         </div>
         <div className={style}>
           <div className="icon" style={{backgroundImage: `url(${Github})`}}></div>
@@ -85,8 +87,19 @@ const  Proyects = () => {
           <div className="icon" style={{backgroundImage: `url(${Pizza})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Champi})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Sandwich})`}}></div>
+          <div className="icon earth" style={{backgroundImage: `url(${Earth})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Moon})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Pluto})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Mercurio})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Uranus})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Jupiter})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Venus})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Neptune})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Mars})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Saturn})`}}></div>
         </div>
-        <div className='vermas' onClick={() =>  setStyle(style === "box-icons" ? "box-icons-open" : "box-icons")}><h1 className='trespuntos'>. . .</h1></div>
+        {/* <div className='vermas' onClick={() =>  setStyle(style === "box-icons" ? "box-icons-open" : "box-icons")}><h1 className='trespuntos'>. . .</h1></div> */}
+        <div className='vermas' onClick={toggleBox}><h1 className='trespuntos'>. . .</h1></div>
 
        
     </div>
