@@ -8,6 +8,7 @@ const Intro = () => {
     <div className='i'>
         
         <div className="i-left">
+            
             <div className="i-left-wrapper">
                 <h2 className='i-intro'>Hello, My name is</h2>
                 <h2 className='i-name'>Mariano Ryser</h2>
@@ -21,17 +22,12 @@ const Intro = () => {
                     </div>
                 </div>
                 <div className="i-desc">
-                    <h4> I am a web designer, I like to create animations, learn language and always willing to learn new things.</h4>
+                    <h4>I am a web designer, I like to create animations, learn languages ​​and I am always willing to learn new technologies.</h4>
                 </div>
                 <div className="i-desc2">
                     <h2>HTML5 - CSS - BOOTSTRAP - WORDPRESS - JAVA SCRIPT - REACT - MYSQL - PHP - LINUX - GIT - GITHUB - DOCKER </h2>
                 </div>
 
-                <div className="welcome">
-                  <div className="cuadrado"></div>
-                  <div className="triangulo"></div>
-                  <div className="luna"></div>
-                </div>
             </div>
 
         </div>

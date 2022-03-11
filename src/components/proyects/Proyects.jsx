@@ -12,6 +12,7 @@ import Snake from "../../img/snake.png"
 import Terminal from "../../img/terminal.png"
 import Tic from "../../img/tic1.png"
 import Twiter from "../../img/twiter.png"
+import Watsap from "../../img/watsap.png"
 import Vue from "../../img/vue.png"
 import Bicho from "../../img/bichoWhite.png"
 import Html from "../../img/html.gif"
@@ -32,12 +33,12 @@ import Champi from "../../img/champi.png"
 import Bootstrap from "../../img/bootstrap.gif"
 import Sandwich from "../../img/sandwich.png"
 import Earth from "../../img/earth.png"
-import Moon from "../../img/moon2.gif"
+import Moon from "../../img/mooon.gif"
 import Neptune from "../../img/neptune.png"
 import Pluto from "../../img/pluto.png"
-import Jupiter from "../../img/jupiter.png"
-import Venus from "../../img/venus.png"
-import Mercurio from "../../img/mercurio2.gif"
+import Jupiter from "../../img/jupiter.gif"
+import Venus from "../../img/venus.gif"
+import Mercurio from "../../img/mercurio.gif"
 import Saturn from "../../img/saturn.png"
 import Uranus from "../../img/uranus.png"
 import Mars from "../../img/mars.png"
@@ -73,6 +74,7 @@ const  Proyects = () => {
           <div className="icon" style={{backgroundImage: `url(${Terminal})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Tic})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Twiter})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Watsap})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Vue})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Bicho})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Css})`}}></div>

@@ -9,11 +9,8 @@ const  About = () => {
     <div className='a' >
       <div className="a-left">
       
-        
-              
-
-        <a href="/"><div class="espacio3D" >
-            <div class="cubo3D">
+        <a href="/"><div className="espacio3D" >
+            <div className="cubo3D">
               <aside className="cara cara1">1</aside>
               <aside className="cara cara2">2</aside>
               <aside className="cara cara3">3</aside>
