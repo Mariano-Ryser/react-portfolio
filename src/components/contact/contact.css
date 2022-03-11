@@ -1,12 +1,13 @@
 .c-box{
     height: 100vh;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
     margin-top: 40px;
     border-top: solid 4px rgb(4, 107, 4);
+    background-image: url(/src/img/back.jpg);
 }
 
 .c-bg{
-    height: 110%;
+    height: 100%;
     width: 20px;
     background-color: rgb(4, 107, 4);
     position: absolute;
@@ -67,10 +68,10 @@ input{
     border: none;
     border-bottom: green 2px solid;
     margin: 10px 0px;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 200;
     padding-left: 10px;
-    background-color: black;
+    background: transparent;
     color: white;
 }
 textarea{
@@ -80,7 +81,7 @@ textarea{
     margin: 10px 0px;
     font-size: 20px;
     padding-left: 10px;
-    background-color: black;
+    background: transparent;
     color: white;
 }
 button{
@@ -95,7 +96,6 @@ button{
 button:hover{
     background-color: rgb(2, 172, 2)
 }
-
 .c-msj{
     position: absolute;
     height: 70px ;
@@ -128,10 +128,9 @@ button:hover{
 @media screen and (max-width:850px){
     .c-box{
         height: 800px;
-        background-color: rgb(0, 0, 0);
+        background-image: url(/src/img/back.jpg);
         margin-top: 20px;
         border-top: solid 4px rgb(4, 107, 4);
-      
     }
     .c-bg{
         display: none;
@@ -171,7 +170,7 @@ button:hover{
         font-size: 20px;
         font-weight: 200;
         padding-left: 10px;
-        background-color: black;
+        background-color: transparent;
         color: white;
     }
     textarea{
@@ -181,7 +180,7 @@ button:hover{
         margin: 10px 0px;
         font-size: 25px;
         padding-left: 10px;
-        background-color: black;
+        background-color: transparent;
         color: white;
         
     }

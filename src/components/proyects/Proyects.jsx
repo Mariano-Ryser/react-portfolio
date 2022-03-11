@@ -35,7 +35,7 @@ import Earth from "../../img/earth.png"
 import Moon from "../../img/moon2.gif"
 import Neptune from "../../img/neptune.png"
 import Pluto from "../../img/pluto.png"
-import Jupiter from "../../img/jupiter.gif"
+import Jupiter from "../../img/jupiter.png"
 import Venus from "../../img/venus.png"
 import Mercurio from "../../img/mercurio2.gif"
 import Saturn from "../../img/saturn.png"
@@ -87,7 +87,7 @@ const  Proyects = () => {
           <div className="icon" style={{backgroundImage: `url(${Pizza})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Champi})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Sandwich})`}}></div>
-          <div className="icon earth" style={{backgroundImage: `url(${Earth})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Earth})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Moon})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Pluto})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Mercurio})`}}></div>
@@ -100,8 +100,6 @@ const  Proyects = () => {
         </div>
         {/* <div className='vermas' onClick={() =>  setStyle(style === "box-icons" ? "box-icons-open" : "box-icons")}><h1 className='trespuntos'>. . .</h1></div> */}
         <div className='vermas' onClick={toggleBox}><h1 className='trespuntos'>. . .</h1></div>
-
-       
     </div>
   )
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import "./intro.css"
 import Yo from "../../img/Yo.png"
+import Back from "../../img/back.jpg"
+
 const Intro = () => {
   return (
     <div className='i'>
@@ -22,7 +24,7 @@ const Intro = () => {
                     <h4> I am a web designer, I like to create animations, learn language and always willing to learn new things.</h4>
                 </div>
                 <div className="i-desc2">
-                    <h2>HTML5 - CSS - BOOTSTRAP - WORDPRESS - JAVA SCRIPT - REACT - UX - MYSQL - PHP - LINUX - GIT - GITHUB - DOCKER </h2>
+                    <h2>HTML5 - CSS - BOOTSTRAP - WORDPRESS - JAVA SCRIPT - REACT - MYSQL - PHP - LINUX - GIT - GITHUB - DOCKER </h2>
                 </div>
 
                 <div className="welcome">
