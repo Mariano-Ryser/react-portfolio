@@ -311,6 +311,8 @@
 @media screen and (max-width:480px){
     .i{
        flex-direction: column; 
+       background-image: url(/src/img/back.jpg);
+       background-size: cover;
     }
     
     .i-left-wrapper{

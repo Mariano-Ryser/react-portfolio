@@ -129,6 +129,8 @@ button:hover{
     .c-box{
         height: 800px;
         background-image: url(/src/img/back.jpg);
+        background-image: url(/src/img/back.jpg);
+       background-size: cover;
         margin-top: 20px;
         border-top: solid 4px rgb(4, 107, 4);
     }
