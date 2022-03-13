@@ -143,14 +143,20 @@ aside.cara6 { /* arriba */
     align-items: center;
     justify-content: center;
 }
-.magic-card{
-    height: 75%;
-    width: 40%;
-    border-radius: 20px;
-    background-color: rgb(211, 211, 211);
-    box-shadow: -30px -30px 5px -3px rgb(44, 44, 44), inset 0px 0px 30px rgb(19, 19, 19);
 
+.magic-card{
+  height: 75%;
+  width: 50%;
+  border-radius: 20px;
+  background-color: rgb(252, 252, 252);
+  box-shadow: inset black 0px 0px 40px;
 }
+
+
+
+
+
+
 
 
 /* Media queries *//* Media queries *//* Media queries */

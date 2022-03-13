@@ -1,0 +1,31 @@
+.s1{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(114, 113, 113);
+    border-bottom: 2px green solid;
+    padding-top: 20px;
+    transition: 1s;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+}
+
+@media (min-width:0px){
+    .s1{
+        height: 50px;
+        width: 100%;
+        background-color: rgb(110, 110, 110);
+        border-bottom: 2px green solid;
+    }  
+}
+
+@media (min-width:850px){
+    .s1{
+        height: 100px;
+        width: 100%;
+        background-color: rgb(109, 109, 109);
+        border-bottom: 2px green solid;
+    }  
+}

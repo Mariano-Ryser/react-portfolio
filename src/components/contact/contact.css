@@ -5,9 +5,6 @@
     border-top: solid 4px rgb(4, 107, 4);
     background-image: url(/src/img/back.jpg);
     background-attachment: fixed;
-    box-shadow: inset black 0px 0px 140px,
-    inset black 0px 0px 140px,
-    inset black 0px 0px 60px;
 }
 
 .c-bg{

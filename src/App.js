@@ -5,13 +5,15 @@ import Proyects from "./components/proyects/Proyects";
 import Contact from "./components/contact/Contact"
 import Act1 from "./Act/Act1";
 import Post from "./post/Post"
+import S1 from "./components/secciones/S1";
 
 
 function App() {
   
   return (
     <div className="App">
-       <Intro />
+        <Intro />
+        <S1 /> 
         <Proyects /> 
         <About />
         <Contact />

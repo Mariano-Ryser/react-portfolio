@@ -4,6 +4,7 @@ import Yo from "../../img/Yo.png"
 import Back from "../../img/back.jpg"
 
 const Intro = () => {
+    
   return (
     <div className='i'>
         

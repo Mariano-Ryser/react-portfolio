@@ -45,18 +45,23 @@ import Mars from "../../img/mars.png"
 
 const  Proyects = () => {
 
-  const [style, setStyle] = useState("box-icons");
-  
-  const toggleBox = ()=>{
-    setStyle(style === "box-icons" ? "box-icons-open" : "box-icons");
-  }
+ 
+  const [size, setSize] = useState("240px");
+
+function changeSize (){
+  setSize(size === "240px" ? "100%" : "240px")
+}
+
 
   return (
     <div>
         <div className="title">
           <h1> Interactive Icons </h1>
         </div>
-        <div className={style}>
+        <div className="box-icons"
+         style={{height: size}}
+        
+         >
           <div className="icon" style={{backgroundImage: `url(${Github})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Linkedin})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Discord})`}}></div>
@@ -100,8 +105,7 @@ const  Proyects = () => {
           <div className="icon" style={{backgroundImage: `url(${Mars})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Saturn})`}}></div>
         </div>
-        {/* <div className='vermas' onClick={() =>  setStyle(style === "box-icons" ? "box-icons-open" : "box-icons")}><h1 className='trespuntos'>. . .</h1></div> */}
-        <div className='vermas' onClick={toggleBox}><h1 className='trespuntos'>. . .</h1></div>
+        <div className='vermas'  onClick={changeSize}><h1 className='trespuntos'>. . .</h1></div> 
     </div>
   )
 }

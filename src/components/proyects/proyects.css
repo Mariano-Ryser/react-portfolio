@@ -1,7 +1,7 @@
 .title{
   color: white;
   text-align: center;
-  margin-bottom: 0;
+  margin: 10px;
 }
 .temes{
 display: block;
@@ -9,7 +9,7 @@ display: block;
 .box-icons{
   background-color: #000000;
   display: grid;
-  height: 240px;
+  /* height: 240px; */
   overflow: hidden;
   gap: 0.5rem; 
   grid-auto-rows: 7rem;
@@ -17,16 +17,9 @@ display: block;
   grid-template-columns: repeat(12,1fr);
   padding-top: 0px;
   padding-bottom: 22px;
+  
 }
-.box-icons-open{
-  background-color: #000000;
-  display: grid;
-  gap: 0.5rem; 
-  grid-auto-rows: 7rem;
-  grid-auto-columns: repeat(auto-fill, minmax(0.2rem, 4fr));
-  padding-top: 0px;
-  padding-bottom: 22px;
-}
+
 
 .vermas{
   position: relative;
@@ -79,12 +72,9 @@ display: block;
   background-color: rgb(0, 0, 0);
   height: 210px;
   overflow: hidden;
+  gap:1rem;
 }
-.box-icons-open{
-  grid-template-columns: repeat(8,1fr);
-  background-color: rgb(0, 0, 0);
-  gap:0.5rem;
-}
+
 .vermas{
   position: relative;
   left: 47.7%;
@@ -102,16 +92,10 @@ display: block;
   .box-icons{
     grid-template-columns: repeat(12,1fr);
     background-color: rgb(0, 0, 0);
-    gap:1.5rem;
-    height: 250px;
+    gap:1rem;
   overflow: hidden;
-  
   }
-  .box-icons-open{
-    grid-template-columns: repeat(12,1fr);
-    background-color: rgb(0, 0, 0);
-    gap:1.5rem;
-  }
+ 
   .icon{
     display: inline-block;
     height: 120px;
