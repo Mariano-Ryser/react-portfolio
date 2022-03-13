@@ -4,10 +4,10 @@ import "./s1.css"
 
 
 const  S1 = () => {
-  const [size, setSize] = useState(400)
+  const [size, setSize] = useState(100)
   
   function changeSize() {
-    setSize(size === 300 ? 600 : 300)
+    setSize(size === 100 ? 400 : 100)
   }
   
   return (
@@ -18,7 +18,7 @@ const  S1 = () => {
          >
         
     
-        <div onClick={changeSize}> <h1>. . .</h1></div>
+        <div onClick={changeSize} style={{display:"flex", justifyContent:'center'}}> <h1 className='verPlus'>. . .</h1></div>
     </div>
   )
 }
