@@ -45,7 +45,7 @@ import Mars from "../../img/mars.png"
 
 const  Proyects = () => {
 
- 
+
   const [size, setSize] = useState("240px");
 
 function changeSize (){
@@ -62,6 +62,7 @@ function changeSize (){
          style={{height: size}}
         
          >
+           
           <div className="icon" style={{backgroundImage: `url(${Github})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Linkedin})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Discord})`}}></div>
@@ -105,7 +106,13 @@ function changeSize (){
           <div className="icon" style={{backgroundImage: `url(${Mars})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Saturn})`}}></div>
         </div>
-        <div className='vermas'  onClick={changeSize}><h1 className='trespuntos'>. . .</h1></div> 
+
+       
+        <div className='vermas'  onClick={changeSize}><h1 className='trespuntos'>. . .</h1>
+        </div> 
+      
+  
+       
     </div>
   )
 }

@@ -4,22 +4,27 @@ import "./s1.css"
 
 
 const  S1 = () => {
-  const [size, setSize] = useState(100)
+  
+  const [size, setSize] = useState(150)
   
   function changeSize() {
-    setSize(size === 100 ? 400 : 100)
+    setSize(size <= 150 ? 400 : 1)
   }
-  
+
+ 
   return (
-    <div className='s1'
+  <div>
+    <div className="s1"
         style={{height: size + "px"}} 
-    //    onMouseEnter={handleMouseEnter}
-    //     onMouseLeave={handleMouseLeave}
-         >
+      >
+
         
-    
-        <div onClick={changeSize} style={{display:"flex", justifyContent:'center'}}> <h1 className='verPlus'>. . .</h1></div>
+          
     </div>
+          <div className='vermass' onClick={changeSize}><h1 className='trespuntoss'>. . .</h1></div>
+
+         
+  </div>
   )
 }
 

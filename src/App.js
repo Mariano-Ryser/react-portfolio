@@ -8,13 +8,15 @@ import Post from "./post/Post"
 import S1 from "./components/secciones/S1";
 
 
+
 function App() {
+ 
   
   return (
     <div className="App">
-        <Intro />
-        <S1 /> 
-        <Proyects /> 
+         <Intro /> 
+        {/* <S1 />   */}
+         <Proyects /> 
         <About />
         <Contact />
         {/* <Act1 /> */}

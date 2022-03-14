@@ -20,7 +20,6 @@ display: block;
   
 }
 
-
 .vermas{
   position: relative;
   margin-top: 12.3px;
@@ -33,13 +32,16 @@ display: block;
 .trespuntos{
   line-height: 10px;
   margin: 0;
+  transition: 0.2s;
 }
+
 .trespuntos:hover{
   line-height: 10px;
   margin: 0;
   color: rgb(255, 255, 255);
   text-shadow: rgb(161, 161, 161) 0px 0px 20px;
 }
+
 .icon{
   display: inline-block;
   background-size: contain;
@@ -53,19 +55,25 @@ display: block;
  margin: auto;
  transition:0.3s 
 }
+
 .icon:hover{
   cursor: pointer;
   transform: scale(105%) rotateZ(1.5deg);
    box-shadow: inset black 0px 0px 0px;
    filter: blur(0.0px); 
 }
-
-
+.modal{
+  
+  background-color: aqua;
+  margin: 1rem;
+  max-width: 100vw;
+}
 
 
 @media screen and (max-width:0rem) {
 
 }
+
 @media screen and (min-width:1rem) {
 .box-icons{
   grid-auto-rows: 7rem;
@@ -81,13 +89,15 @@ display: block;
   position: relative;
   left: 47.7%;
 }
+
 .icon{
   display: inline-block;
   box-shadow: inset black 0px 0px 0px;
   height: 88px;
   width: 88px;
-};
 }
+}
+
 @media screen and (min-width:850px){ /* 929px */
   
 
