@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./intro.css"
 import Yo from "../../img/Yo.png"
 import Back from "../../img/back.jpg"
+import Mars from "../../img/mars.png"
 
 const Intro = () => {
+
+    useEffect(()=>{
+        let mars = document.querySelector(".mars")
+
+        window.onscroll = function(){
+            let Y = window.scrollY;
+            mars.style.transform = "translateY(" + Y/1.6 + "px)";
+          }
+    },[])
     
   return (
     <div className='i'>
@@ -36,6 +46,8 @@ const Intro = () => {
             <div className="i-bg"></div>
             <img src={Yo} alt='photp' className='i-img'/>
         </div>
+
+        <img className='mars' src={Mars} alt="" />
     </div>
   )
 }

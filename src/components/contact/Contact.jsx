@@ -1,14 +1,13 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import "./contact.css"
 import Phone from "../../img/phone.png"
 import Adress from "../../img/adress.png"
 
 import Email from "../../img/email.png"
 import emailjs from '@emailjs/browser';
-
+import Mercurio from "../../img/mercurio.png"
 const Contact = () => {
 
-   
     
     const form = useRef();
     const [done, setDone] = useState(false)
@@ -37,6 +36,7 @@ const Contact = () => {
 
   return (
     <div className='c-box'>
+        
         <div className="c-bg"></div>
             <div div className="c-wrapper">
 

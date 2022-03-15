@@ -11,6 +11,16 @@
     border-bottom: solid 4px rgb(4, 107, 4);
     
 }
+.mars{
+  position: absolute;
+  height: 130px;
+  left: 30%;
+  top: 15%;
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+  
+}
 
 .i-left{
     flex: 1;
@@ -22,15 +32,19 @@
 .i-desc{
   color: rgb(221, 221, 221);
   font-size: 17px;
-  margin: 2px;}
+  margin: 2px;
+  z-index: 1;
+}
   
 .i-desc2{
   color: rgb(136, 136, 136);
   font-size: 12px;
+  z-index: 1;
 }
 .i-right{
     flex: 1;
     position: relative;
+
 }
 
 .i-left-wrapper{
@@ -46,6 +60,8 @@
     font-weight: 300;
     margin: 0;
     animation: iintro 2s ease-in-out;
+    z-index: 1;
+   
 }
 @keyframes iintro {
   0%{opacity: 0%;
@@ -64,6 +80,7 @@
     line-height: 80px;
     opacity: 100%;
     animation: iname 1.5s 1 ease-in-out;
+    z-index: 1;
 }
 
 @keyframes iname {
@@ -98,6 +115,7 @@
     align-items: center;
 }
 .i-img{
+  z-index: 1;
     width: 100%;
     height: 100%;
     opacity: 100%;
@@ -119,13 +137,14 @@
 }
 
 .i-bg{
+  
     clip-path: polygon(100% 0, 75% 50%, 100% 100%, 25% 100%, 0 41%, 31% 0);
     background-color: rgb(11, 145, 49);
-    /* background-image: url(/src/img/about.jpg);
+     /* background-image: url(/src/img/about.jpg); */
     background-attachment: fixed;
-    background-size: cover; */
-    /* box-shadow: inset black 0px 0px 140px,
-    inset black 0px 0px 60px; */
+    background-size: cover; 
+     box-shadow: inset black 0px 0px 140px,
+    inset black 0px 0px 60px; 
     width: 100%;
     height: 100%;
     position: absolute;
@@ -158,6 +177,9 @@
        flex-direction: column; 
        background-image: url(/src/img/back.jpg);
        background-size: cover;
+    }
+    .mars{
+      height: 110px;
     }
     
     .i-left-wrapper{
@@ -202,6 +224,7 @@
     .i-bg{
         clip-path: polygon(100% 0, 75% 50%, 100% 100%, 25% 100%, 0 41%, 31% 0);
         background-color: rgb(37, 160, 74);
+        
         width: 100%;
         height: 100%;
         position: absolute;
@@ -221,7 +244,16 @@
      .i-title{
  
      }
- 
+     .mars{
+      position: absolute;
+      height: 60px;
+      left: 10%;
+      top: 15%;
+      padding: 0;
+      margin: 0;
+      z-index: 0;
+      
+    }
      .i-left-wrapper{
          padding: 10px;
          align-items: center;

@@ -1,27 +1,34 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./s1.css"
 
 
 
 const  S1 = () => {
   
-  const [size, setSize] = useState(150)
-  
-  function changeSize() {
-    setSize(size <= 150 ? 400 : 1)
-  }
+  useEffect(()=>{
 
+
+   var s = document.querySelector(".s1");
+    s.style.color ="red";
+
+    window.onscroll = function(){
+      let Y = window.scrollY;
+
+      s.style.transform = "translateY(" + Y/1.5 + "px)";
+    }
+
+ },[])
  
   return (
   <div>
-    <div className="s1"
-        style={{height: size + "px"}} 
-      >
+    <div className="s1">
+
+        Hola
 
         
           
     </div>
-          <div className='vermass' onClick={changeSize}><h1 className='trespuntoss'>. . .</h1></div>
+        
 
          
   </div>
