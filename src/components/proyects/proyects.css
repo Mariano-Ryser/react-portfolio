@@ -1,13 +1,13 @@
 .title{
   color: white;
   text-align: center;
-  margin: 10px;
+ 
 }
 .temes{
 display: block;
 }
 .box-icons{
-  background-color: #000000;
+  
   display: grid;
   /* height: 240px; */
   overflow: hidden;
@@ -23,7 +23,7 @@ display: block;
 .vermas{
   position: relative;
   margin-top: 12.3px;
-  color: rgb(138, 138, 138);
+  color: rgb(255, 255, 255);
   height: 20px;
   width: 50px;
   cursor: pointer;
@@ -39,7 +39,7 @@ display: block;
   line-height: 10px;
   margin: 0;
   color: rgb(255, 255, 255);
-  text-shadow: rgb(161, 161, 161) 0px 0px 20px;
+  text-shadow: rgb(209, 209, 209) 0px 0px 20px;
 }
 
 .icon{
@@ -49,7 +49,6 @@ display: block;
   background-repeat: no-repeat;
   height: 130px;
   width: 130px;
- box-shadow: inset black -20px -20px 60px;
  grid-column: span 2;
  filter: blur(0.4px);
  margin: auto;
@@ -59,7 +58,6 @@ display: block;
 .icon:hover{
   cursor: pointer;
   transform: scale(105%) rotateZ(1.5deg);
-   box-shadow: inset black 0px 0px 0px;
    filter: blur(0.0px); 
 }
 .modal{
@@ -76,10 +74,11 @@ display: block;
 
 @media screen and (min-width:1rem) {
 .box-icons{
+ 
   grid-auto-rows: 7rem;
   grid-auto-columns: repeat(auto-fill, minmax(0.2rem, 4fr));
   grid-template-columns: repeat(8,1fr);
-  background-color: rgb(0, 0, 0);
+
   height: 210px;
   overflow: hidden;
   gap:1rem;
@@ -92,7 +91,6 @@ display: block;
 
 .icon{
   display: inline-block;
-  box-shadow: inset black 0px 0px 0px;
   height: 88px;
   width: 88px;
 }
@@ -105,7 +103,6 @@ display: block;
     grid-auto-rows: 7rem;
   grid-auto-columns: repeat(auto-fill, minmax(0.2rem, 4fr));
   grid-template-columns: repeat(12,1fr);
-    background-color: rgb(0, 0, 0);
     gap:1.2rem;
   overflow: hidden;
   }
@@ -114,7 +111,6 @@ display: block;
     display: inline-block;
     height: 120px;
     width: 120px;
-    box-shadow: inset black -10px -10px 40px;
   };
 
 }

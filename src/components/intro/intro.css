@@ -17,8 +17,18 @@
   left: 30%;
   top: 15%;
   padding: 0;
+  opacity: 100%;
   margin: 0;
   z-index: 0;
+  animation: mars 2s 1 ease-in;
+}
+@keyframes mars {
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
   
 }
 

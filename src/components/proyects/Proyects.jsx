@@ -5,7 +5,7 @@ import Github from "../../img/github.png"
 import Linkedin from "../../img/linkedin.png"
 import Drag from "../../img/drag2.png"
 import Cube from "../../img/cubegif.gif"
-import Fo from "../../img/fo.gif"
+// import Fo from "../../img/fo.gif"
 import Google from "../../img/googleLogo.png"
 import Pac from "../../img/PacYellow.png"
 import Snake from "../../img/snake.png"
@@ -19,7 +19,7 @@ import Html from "../../img/html.gif"
 import Css from "../../img/css.gif"
 import Visual from "../../img/visual.gif"
 import Js from "../../img/js.png"
-import Reactt from "../../img/react.gif"
+// import Reactt from "../../img/react.gif"
 import Linux from "../../img/linux.png"
 import Paint from "../../img/paint3d.png"
 import Window from "../../img/window.png"
@@ -56,7 +56,7 @@ function changeSize (){
   return (
     <div>
         <div className="title">
-          <h1> Interactive Icons </h1>
+          <h1> Icons </h1>
         </div>
         <div className="box-icons"
          style={{height: size}}
@@ -69,7 +69,7 @@ function changeSize (){
           <div className="icon" style={{backgroundImage: `url(${Alienverde})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Drag})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Cube})`}}></div>
-          <div className="icon" style={{backgroundImage: `url(${Fo})`}}></div>
+          {/* <div className="icon" style={{backgroundImage: `url(${Fo})`}}></div> */}
           <div className="icon" style={{backgroundImage: `url(${Google})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Pac})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Visual})`}}></div>
@@ -87,7 +87,7 @@ function changeSize (){
           <div className="icon" style={{backgroundImage: `url(${Bootstrap})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Html})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Js})`}}></div>
-          <div className="icon" style={{backgroundImage: `url(${Reactt})`}}></div>
+          {/* <div className="icon" style={{backgroundImage: `url(${Reactt})`}}></div> */}
           <div className="icon" style={{backgroundImage: `url(${Linux})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Paint})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Window})`}}></div>
