@@ -2,12 +2,13 @@ import React, { useEffect } from 'react'
 import "./intro.css"
 import Yo from "../../img/Yo.png"
 import Back from "../../img/back.jpg"
-import Mars from "../../img/mars.png"
+import Mars from "../../img/mooon.gif"
 
 const Intro = () => {
 
     useEffect(()=>{
-        let mars = document.querySelector(".mars")
+        let mars = document.querySelector(".mars");
+      
         // let wrapper = document.querySelector(".i-left-wrapper")
 
         window.onscroll = function(){
@@ -19,7 +20,7 @@ const Intro = () => {
     
   return (
     <div className='i'>
-        
+     
         <div className="i-left">
             
             <div className="i-left-wrapper">
@@ -50,7 +51,10 @@ const Intro = () => {
         </div>
 
         <img className='mars' src={Mars} alt="" />
+        
+        
     </div>
+    
   )
 }
 

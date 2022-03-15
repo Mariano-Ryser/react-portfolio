@@ -47,9 +47,10 @@ const  Proyects = () => {
 
 
   const [size, setSize] = useState("240px");
-
+ 
+  
 function changeSize (){
-  setSize(size === "240px" ? "100%" : "240px")
+  setSize(size === "240px" ? "100%" : "240px");
 }
 
 
@@ -67,8 +68,11 @@ function changeSize (){
           <div className="icon" style={{backgroundImage: `url(${Linkedin})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Discord})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Alienverde})`}}></div>
-          <div className="icon" style={{backgroundImage: `url(${Drag})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Bootstrap})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Cube})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Html})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Css})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Js})`}}></div>
           {/* <div className="icon" style={{backgroundImage: `url(${Fo})`}}></div> */}
           <div className="icon" style={{backgroundImage: `url(${Google})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Pac})`}}></div>
@@ -83,10 +87,7 @@ function changeSize (){
           <div className="icon" style={{backgroundImage: `url(${Watsap})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Vue})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Bicho})`}}></div>
-          <div className="icon" style={{backgroundImage: `url(${Css})`}}></div>
-          <div className="icon" style={{backgroundImage: `url(${Bootstrap})`}}></div>
-          <div className="icon" style={{backgroundImage: `url(${Html})`}}></div>
-          <div className="icon" style={{backgroundImage: `url(${Js})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Drag})`}}></div>
           {/* <div className="icon" style={{backgroundImage: `url(${Reactt})`}}></div> */}
           <div className="icon" style={{backgroundImage: `url(${Linux})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Paint})`}}></div>
@@ -96,10 +97,10 @@ function changeSize (){
           <div className="icon" style={{backgroundImage: `url(${Champi})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Sandwich})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Earth})`}}></div>
-          <div className="icon" style={{backgroundImage: `url(${Moon})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Pluto})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Mercurio})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Uranus})`}}></div>
+          <div className="icon" style={{backgroundImage: `url(${Moon})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Jupiter})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Venus})`}}></div>
           <div className="icon" style={{backgroundImage: `url(${Neptune})`}}></div>
