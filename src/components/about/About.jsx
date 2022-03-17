@@ -7,7 +7,24 @@ const  About = () => {
   
   return (
     <div className='a' >
-      <div className="a-left">
+        <div className="a-container">
+            
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {/* <div className="a-left">
       
         <a href="/"><div className="espacio3D" >
             <div className="cubo3D">
@@ -21,8 +38,6 @@ const  About = () => {
           </div>
         </a>
         
-        
- 
     </div>
 
   <div className='a-right'>
@@ -33,7 +48,7 @@ const  About = () => {
     </div>
  
 
-  </div>
+  </div> */}
           
     
 </div>

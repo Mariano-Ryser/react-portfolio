@@ -1,0 +1,92 @@
+.s1{
+    color: rgb(38, 211, 38);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    border-bottom: 3px solid rgb(38, 211, 38);
+    background-color: black;
+}
+.toggle{
+    border-right: solid 3px rgb(38, 211, 38);
+    border-left: solid 3px rgb(38, 211, 38);
+    height: 50px;
+    width: 50px;
+    transition: 0.2s;
+    background-color: black;
+}
+.toggle:hover{
+    background-color:rgb(38, 211, 38); 
+}
+.toggle-box{
+    position: absolute;
+    border: solid 3px rgb(38, 211, 38);
+    background-color: black;
+    width: 200px;
+    height: 90%;
+    overflow-y: scroll;
+    animation: apa 0.3s 1 ease-out;
+}
+@keyframes apa {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+    
+}
+
+.toggle-box::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+  .toggle-box::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);        /* color of the tracking area */
+  }
+.toggle-box::-webkit-scrollbar-thumb
+ {  width: 10px;
+    background-color: rgb(38, 211, 38);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
+  }
+
+li{
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+li:hover{
+    background-color:rgb(11, 175, 25) ;
+    color: black;
+}
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+
+@media screen and (max-width:480px){
+
+    
+
+}
+ 
+@media screen and (max-width:920px){
+
+    
+}
+

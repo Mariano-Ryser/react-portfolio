@@ -1,12 +1,14 @@
 .title{
   color: white;
   text-align: center;
+  background-color: black;
  
 }
 .temes{
 display: block;
 }
 .box-icons{
+  background-color: black;
   display: grid;
   /* height: 240px; */
   overflow: hidden;
@@ -22,7 +24,7 @@ display: block;
 .vermas{
   position: relative;
   margin-top: 12.3px;
-  color: rgb(255, 255, 255);
+  color: rgb(182, 182, 182);
   height: 20px;
   width: 50px;
   cursor: pointer;
@@ -38,7 +40,7 @@ display: block;
   line-height: 10px;
   margin: 0;
   color: rgb(255, 255, 255);
-  text-shadow: rgb(209, 209, 209) 0px 0px 20px;
+  text-shadow: rgb(255, 255, 255) 0px 0px 50px;
 }
 
 .icon{

@@ -3,25 +3,40 @@ import Intro from "./components/intro/Intro";
 import About from "./components/about/About"
 import Proyects from "./components/proyects/Proyects";
 import Contact from "./components/contact/Contact"
-
-import Post from "./post/Post"
-import S1 from "./components/secciones/S1";
-
+import Intro2 from "./components/intro2/Intro";
+import Presentation from "./components2/presentation/Presentation";
 
 
 function App() {
  
-  
   return (
+    
     <div className="App">
-          <Intro />   
-         {/* <S1 />    */}
+      <Presentation />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {/* <Intro2 />
+         <About /> */}
+        {/* <Intro />      
          <Proyects /> 
-        <About />
-        <Contact />  
-     
-        
+         <Contact />    */}
     </div>
+    
   );
 }
 

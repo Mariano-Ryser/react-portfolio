@@ -3,12 +3,49 @@
     height: 80vh;
     display: flex;
     align-items: center;
-    margin-top: 10px;
-     background-image: url(/src/img/about1.jpg); 
+   
+    background-color: #3F48CC;
     background-attachment: fixed;
-    border-top: solid 4px rgb(4, 107, 4);
+    /* border-top: solid 4px rgb(4, 107, 4); */
     
 }
+.a-container{
+  display: flex;
+  background-color: #3F48CC;
+  justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .a-left{
     width: 100%;
     flex: 1;
@@ -17,9 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/src/img/about3.jpg); 
-    background-size: cover;
-    background-attachment: fixed;
+   
 }
 
 
@@ -133,9 +168,7 @@ aside.cara6 { /* arriba */
 /* RIGHT *//* RIGHT *//* RIGHT *//* RIGHT *//* RIGHT *//* RIGHT *//* RIGHT */
 
 .a-right{
-  background-image: url(/src/img/about3.jpg);
-  background-size: cover; 
-    background-attachment: fixed;
+  background-color: black;
     flex: 1;
     height: 100%;
     width: 100%;

@@ -8,13 +8,15 @@ const Intro = () => {
 
     useEffect(()=>{
         let mars = document.querySelector(".mars");
-      
+        
         // let wrapper = document.querySelector(".i-left-wrapper")
 
         window.onscroll = function(){
             let Y = window.scrollY;
+            // console.log(Y);
             mars.style.transform = "translateY(" + Y/1.6 + "px)";
-            // wrapper.style.transform = "translateY(" + Y/1 + "px)";
+           
+            mars.style.opacity =  Y*+0.2 + "%";
           }
     },[])
     

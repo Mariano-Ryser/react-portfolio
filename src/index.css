@@ -1,19 +1,46 @@
-/* *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
-body {
-  background-image: url(/src/img/about.jpg);
- background-size: cover;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  background-color: black;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
 
 .App{
   font-family: 'Poppins', sans-serif;
-}
+} */

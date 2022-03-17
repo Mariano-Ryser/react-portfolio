@@ -1,0 +1,160 @@
+.presentation{
+    height: 100vh;
+    background-color: black;
+}
+.p-name{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT *//* CONTACT *//* CONTACT *//* CONTACT *//* CONTACT *//* CONTACT *//* CONTACT *//* CONTACT */
+.contact{
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+     /* border: dashed white 4px;  */
+    width: 10rem;
+    height: 100%;
+}
+.github{
+    z-index: 2;
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(/src/img/github.png);
+    background-size: cover;
+    transition: 0.2s;
+    
+}
+.github:hover{
+   transform: scale(1.09)rotate(3deg);
+
+}
+
+.linkedin{
+    z-index: 2;
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(/src/img/linkedin.png);
+    background-size: cover;
+    transition: 0.2s;
+    
+}
+.linkedin:hover{
+   transform: scale(1.09)rotate(3deg);
+
+}
+.email{
+    z-index: 2;
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(/src/img/email.png);
+    background-size: cover;
+    transition: 0.2s;
+    
+}
+.email:hover{
+   transform: scale(1.09)rotate(3deg);
+
+}
+
+
+
+/* FOTO *//* FOTO *//* FOTO *//* FOTO *//* FOTO *//* FOTO *//* FOTO *//* FOTO *//* FOTO */
+
+.foto{
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url(/src/img/Yo.png);
+    background-size: cover;
+    background-position-x:50px ;
+    background-position-y:40px ;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    /* border-radius: 50%; */
+}
+.bg-foto{
+    z-index: 1;
+    clip-path: polygon(51% 49%, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 450px;
+    width: 350px;
+    background-color: rgb(13, 114, 0);
+}
+
+/* MEDIA QUERIES*//* MEDIA QUERIES*//* MEDIA QUERIES*//* MEDIA QUERIES*//* MEDIA QUERIES*//* MEDIA QUERIES*//* MEDIA QUERIES*/
+/* MEDIA QUERIES*//* MEDIA QUERIES*//* MEDIA QUERIES*//* MEDIA QUERIES*//* MEDIA QUERIES*//* MEDIA QUERIES*//* MEDIA QUERIES*//* MEDIA QUERIES*/
+@media screen and (max-width:450px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .foto{
+      
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-image: url(/src/img/Yo.png);
+        background-size: cover;
+        background-position-x:50px ;
+        background-position-y:40px ;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 300px;
+        /* border-radius: 50%; */
+    }
+    .bg-foto{
+        
+        clip-path: polygon(51% 49%, 100% 0%, 100% 100%, 0% 100%);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 450px;
+        width: 350px;
+        background-color: rgb(13, 114, 0);
+    }
+
+    .mobil{
+        position: absolute;
+        bottom: 0;
+    }
+    
+
+
+
+}
