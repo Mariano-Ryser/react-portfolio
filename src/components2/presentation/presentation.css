@@ -124,7 +124,24 @@
 
 
 
-
+    .github{
+        z-index: 2;
+        margin: 2rem;
+        height: 5rem;
+        width: 5rem;
+    }
+    .linkedin{
+        z-index: 2;
+        margin: 2rem;
+        height: 5rem;
+        width: 5rem;
+    }
+    .email{
+        z-index: 2;
+        margin: 2rem;
+        height: 5rem;
+        width: 5rem;
+    }
 
 
 
@@ -160,7 +177,7 @@
         right: 0;
          /* border: dashed white 4px;  */
         width: 10rem;
-        height: 40%;
+        height: 23rem;
     }
 
 
