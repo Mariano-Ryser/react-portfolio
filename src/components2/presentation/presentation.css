@@ -47,19 +47,19 @@
    box-shadow: inset black 0px 0px 0px;
 
 }
-.email{
+.twiter{
     z-index: 2;
-    margin: 2rem;
-    height: 5rem;
-    width: 5rem;
-    background-image: url(/src/img/email.png);
+    margin: 1.97rem;
+    height: 4.7rem;
+    width: 4.7rem;
+    background-image: url(/src/img/twiter.png);
     background-size: cover;
     transition: 0.2s;
     animation: ani 1s 1 ease-in-out;
     /* box-shadow: inset black 0px 0px 40px; */
     
 }
-.email:hover{
+.twiter:hover{
    transform: scale(1.09)rotate(3deg);
    box-shadow: inset black 0px 0px 0px;
 }
@@ -136,7 +136,7 @@
         height: 5rem;
         width: 5rem;
     }
-    .email{
+    .twiter{
         z-index: 2;
         margin: 2rem;
         height: 5rem;
