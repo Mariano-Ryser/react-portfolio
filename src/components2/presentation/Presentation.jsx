@@ -23,7 +23,7 @@ const Presentation = () => {
             <div className="mobil">
                 <a href="https://github.com/Mariano-Ryser"><div className="github"></div></a>
                 <a href="https://www.linkedin.com/in/mariano-ryser-073731221/"><div className="linkedin"></div></a>
-                <a href=""><div className="twiter"></div></a>
+                <a href="https://twitter.com/RyserMariano"><div className="twiter"></div></a>
             </div>
         </div>
 
