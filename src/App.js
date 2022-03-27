@@ -32,11 +32,11 @@ function App() {
 
 
 
-         {/* <Intro2 /> */}
-         {/* <About />  */}
-         {/* <Intro />      
+          {/* { <Intro2 /> 
+          <About />    */}
+         <Intro />      
          <Proyects /> 
-         <Contact />     */}
+         <Contact />       
     </div>
     
   );
