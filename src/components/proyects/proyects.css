@@ -22,6 +22,7 @@ display: block;
 }
 
 .vermas{
+  background-color: black;
   position: relative;
   margin-top: 12.3px;
   color: rgb(182, 182, 182);
@@ -75,7 +76,6 @@ display: block;
 
 @media screen and (min-width:1rem) {
 .box-icons{
- 
   grid-auto-rows: 7rem;
   grid-auto-columns: repeat(auto-fill, minmax(0.2rem, 4fr));
   grid-template-columns: repeat(8,1fr);

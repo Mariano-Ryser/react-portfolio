@@ -46,19 +46,19 @@ import Mars from "../../img/mars.png"
 const  Proyects = () => {
 
 
-  const [size, setSize] = useState("240px");
+  const [size, setSize] = useState("260px");
  
   
 function changeSize (){
-  setSize(size === "240px" ? "100%" : "240px");
+  setSize(size === "260px" ? "100%" : "260px");
 }
 
 
   return (
     <div>
-        <div className="title">
+        {/* <div className="title">
           <h1> Icons </h1>
-        </div>
+        </div> */}
         <div className="box-icons"
          style={{height: size}}
         
