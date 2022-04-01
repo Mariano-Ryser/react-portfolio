@@ -3,7 +3,7 @@ import Intro from "./components/intro/Intro";
 import About from "./components/about/About"
 import Proyects from "./components/proyects/Proyects";
 import Contact from "./components/contact/Contact"
-import Intro2 from "./components/intro2/Intro";
+
 import Presentation from "./components2/presentation/Presentation";
 
 
@@ -33,11 +33,12 @@ function App() {
 
 
 
-          {/* { <Intro2 /> 
-          <About />    */}
-         {/* <Intro />       */}
+        
+          {/* <About />   */}
+          {/* <Intro />       */}
           <Proyects />  
-         {/* <Contact />        */}
+          {/* <Contact />        */}
+
     </div>
     
   );

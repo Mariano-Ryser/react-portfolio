@@ -16,10 +16,12 @@ const Presentation = () => {
     <div className='presentation'>
         {/* <div className="p-name"><h1>Mariano Ryser</h1></div> */}
 
+           <a href="https://lecturaas.netlify.app/"><div className="next"></div></a>
 
 
       {/*CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, */}
         <div className='contact'>
+
             <div className="mobil">
                 <a href="https://github.com/Mariano-Ryser"><div className="github"></div></a>
                 <a href="https://www.linkedin.com/in/mariano-ryser-073731221/"><div className="linkedin"></div></a>

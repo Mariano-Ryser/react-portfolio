@@ -16,7 +16,7 @@ display: block;
   grid-auto-rows: 7rem;
   grid-auto-columns: repeat(auto-fill, minmax(0.2rem, 4fr));
   grid-template-columns: repeat(12,1fr);
-  padding-top: 0px;
+  padding-top: 20px;
   padding-bottom: 22px;
   
 }
@@ -79,8 +79,8 @@ display: block;
   grid-auto-rows: 7rem;
   grid-auto-columns: repeat(auto-fill, minmax(0.2rem, 4fr));
   grid-template-columns: repeat(8,1fr);
-
-  height: 210px;
+  padding-top: 20px;
+  /* height: 210px; */
   overflow: hidden;
   gap:1rem;
 }

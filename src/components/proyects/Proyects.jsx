@@ -46,11 +46,11 @@ import Mars from "../../img/mars.png"
 const  Proyects = () => {
 
 
-  const [size, setSize] = useState("260px");
+  const [size, setSize] = useState("280px");
  
   
 function changeSize (){
-  setSize(size === "260px" ? "100%" : "260px");
+  setSize(size === "280px" ? "100%" : "280px");
 }
 
 
@@ -61,7 +61,7 @@ function changeSize (){
         </div> */}
         <div className="box-icons"
          style={{height: size}}
-        
+
          >
            
           <div className="icon" style={{backgroundImage: `url(${Github})`}}></div>

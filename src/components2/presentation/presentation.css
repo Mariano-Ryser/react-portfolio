@@ -4,6 +4,14 @@
    
 }
 
+.next{
+    margin: 2rem;
+    height: 5rem;
+    width: 4rem;
+    background-image:url(/src/img/next.png);
+    background-size: cover;
+}
+
 
 /* CONTACT *//* CONTACT *//* CONTACT *//* CONTACT *//* CONTACT *//* CONTACT *//* CONTACT *//* CONTACT */
 .contact{
