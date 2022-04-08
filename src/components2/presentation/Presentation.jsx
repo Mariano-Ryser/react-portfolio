@@ -16,7 +16,7 @@ const Presentation = () => {
     <div className='presentation'>
         {/* <div className="p-name"><h1>Mariano Ryser</h1></div> */}
 
-           <a href="https://lecturaas.netlify.app/"><div className="next"></div></a>
+           {/* <a href="https://lecturaas.netlify.app/"><div className="next"></div></a> */}
 
 
       {/*CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, */}
